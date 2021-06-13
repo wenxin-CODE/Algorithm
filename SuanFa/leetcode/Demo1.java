@@ -5,12 +5,12 @@ import java.util.LinkedList;
 
 public class Demo1 {
 
-    public static void main(String[] argc){
-        int h[] = {0,1,0,2,1,0,1,3,2,1,2,1};
-        System.out.println("存水量为"+trap1(h));
-        System.out.println("存水量为"+trap2(h));
-        System.out.println("存水量为"+trap3(h));
-    }
+//    public static void main(String[] argc){
+//        int h[] = {0,1,0,2,1,0,1,3,2,1,2,1};
+//        System.out.println("存水量为"+trap1(h));
+//        System.out.println("存水量为"+trap2(h));
+//        System.out.println("存水量为"+trap3(h));
+//    }
     public static int trap1(int[] height) {
         int n = height.length;
         if (n == 0) {

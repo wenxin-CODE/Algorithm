@@ -4,10 +4,10 @@ class Demo2 {
 
     //动态规划，建造二维数组，dp[i][j]取决于text1[i][j]、text2[i][j]和dp[i-1][j-1]
     //https://leetcode-cn.com/problems/longest-common-subsequence/solution/zui-chang-gong-gong-zi-xu-lie-by-leetcod-y7u0/
-    public static void main(String[] argc){
-       int len = longestCommonSubsequence("abcdefg","acegbdf");
-       System.out.println(len);
-    }
+//    public static void main(String[] argc){
+//       int len = longestCommonSubsequence("abcdefg","acegbdf");
+//       System.out.println(len);
+//    }
 
     public static int longestCommonSubsequence(String text1, String text2) {
         int m = text1.length(), n = text2.length();
