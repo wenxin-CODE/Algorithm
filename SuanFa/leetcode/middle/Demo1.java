@@ -3,6 +3,8 @@ package leetcode.middle;
 import java.util.LinkedList;
 import java.util.Queue;
 
+//使用广度优先搜索
+
 public class Demo1 {
     public int movingCount(int m, int n, int k) {
         if (k == 0) {
@@ -28,6 +30,7 @@ public class Demo1 {
                 if (tx < 0 || tx >= m || ty < 0 || ty >= n || vis[tx][ty] || get(tx) + get(ty) > k) {
                     continue;
                 }
+//                能走通，就入队列，后面接着从这里出发走
                 queue.offer(new int[]{tx, ty});
                 vis[tx][ty] = true;
                 ans++;
