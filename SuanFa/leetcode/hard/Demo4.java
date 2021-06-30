@@ -1,5 +1,8 @@
 package leetcode.hard;
 
+//二叉树的序列化本质上是对其值进行编码，更重要的是对其结构进行编码。可以遍历树来完成上述任务。
+//https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/solution/xu-lie-hua-er-cha-shu-by-leetcode-soluti-4duq/
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
