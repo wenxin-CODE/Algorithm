@@ -2,7 +2,7 @@ package leetcode;
 
 //import leetcode.easy.Demo9;
 import leetcode.hard.Demo5;
-import leetcode.middle.Demo10;
+import leetcode.middle.Demo11;
 
 import java.sql.Array;
 import java.util.ArrayList;
@@ -12,10 +12,10 @@ import java.util.List;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        Demo5 dd = new Demo5();
-        int[][] nums = {{1,2,3},{0},{0},{0}};
+        Demo11 dd = new Demo11();
+        int[] nums = {2,-1,1,2,2};
 
-        System.out.println(dd.shortestPathLength(nums));
+        System.out.println(dd.circularArrayLoop(nums));
 //        System.out.println(nums[0]);
     }
 }
