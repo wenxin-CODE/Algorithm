@@ -2,7 +2,7 @@ package leetcode;
 
 //import leetcode.easy.Demo9;
 import leetcode.hard.Demo5;
-import leetcode.middle.Demo11;
+import leetcode.middle.Demo12;
 
 import java.sql.Array;
 import java.util.ArrayList;
@@ -12,10 +12,10 @@ import java.util.List;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        Demo11 dd = new Demo11();
-        int[] nums = {2,-1,1,2,2};
+        Demo12 dd = new Demo12();
+        int[] nums = {2,7,13,19};
 
-        System.out.println(dd.circularArrayLoop(nums));
+        System.out.println(dd.nthSuperUglyNumber(12,nums));
 //        System.out.println(nums[0]);
     }
 }
