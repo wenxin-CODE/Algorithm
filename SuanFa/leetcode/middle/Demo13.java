@@ -15,6 +15,7 @@ public class Demo13 {
                     int anchor = write;
                     while (num > 0) {
                         chars[write++] = (char) (num % 10 + '0');
+//                        这一句怎么起作用的
                         num /= 10;
                     }
                     reverse(chars,anchor,write-1);
