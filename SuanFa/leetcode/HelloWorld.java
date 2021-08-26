@@ -2,7 +2,7 @@ package leetcode;
 
 //import leetcode.easy.Demo9;
 import leetcode.hard.Demo7;
-import leetcode.middle.Demo14;
+import leetcode.middle.Demo15;
 
 import java.sql.Array;
 import java.util.ArrayList;
@@ -12,10 +12,10 @@ import java.util.List;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        Demo14 dd = new Demo14();
-        int[][] nums = {{4,3,1},{3,2,4},{3},{4},{}};
+        Demo15 dd = new Demo15();
+        int[] nums = {1,1,2,2,3,3,4,5};
 
-        System.out.println(dd.allPath(nums));
+        System.out.println(dd.numRescueBoats(nums,9));
 //        System.out.println((char) (1 % 10 + '0'));
     }
 }
