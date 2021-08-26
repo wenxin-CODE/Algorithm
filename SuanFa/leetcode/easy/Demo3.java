@@ -3,6 +3,8 @@ package leetcode.easy;
 public class Demo3  {
 
 //    https://leetcode-cn.com/problems/SNJvJP/
+//    矩形的圈数为 : (num+1)/2 向上取整
+//当前坐标所在圈数 : 行号 , 列号 ,num-行号 ,num-列号 中最小的 +1 即为所在圈数
         public int orchestraLayout(int num, int xPos, int yPos) {
             int minx, miny;
             minx = num - xPos - 1 > xPos ? xPos : num - xPos - 1;
