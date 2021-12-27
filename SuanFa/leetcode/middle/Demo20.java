@@ -1,7 +1,7 @@
 package leetcode.middle;
 
 import java.util.Arrays;
-
+//https://leetcode-cn.com/problems/friends-of-appropriate-ages/solution/gua-ling-de-peng-you-by-leetcode-solutio-v7yk/
 public class Demo20 {
     public int numFriendRequests(int[] ages) {
         int n = ages.length;
