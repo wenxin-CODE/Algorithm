@@ -13,6 +13,7 @@ public class Solution1 {
             for (int j = m-1;j >= 0;j--){
                 ret.add(ret.get(j) | (1<<(i-1)));
 //                1<<(i-1)表示把1向前移i-1位得到的二进制数  ；  a|b表示
+//                进行或运算后，只有第一位由零变一，后面的不变，因为1<<(i-1)后面全是零
             }
         }
         return ret;
